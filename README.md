@@ -1,11 +1,35 @@
 # REDME
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import static org.junit.Assert.assertTrue;
+I can provide you with a set of Selenium tes in Java using JUnit and Maven. Here's a sample structure for your tests:
+
+1. Setup:h
+
+Make sure you have Java, Maven, and t appropriate WebDriver (e.g., ChromeDriver) installed.
+
+Create a Maven project.
+
+• Add dependencies for Selenium WebDriver and JUnit in your 'pom.xml' file.
+
+2. Tests:
+Instructions for Running Tests:
+
+Clone the GitHub repository.
+
+Navigate to the project directory.
+
+Run 'mvn verify to execute the tests.
+
+2. Documentation:
+
+Provide clear comments within the test methods to explain their purpose and any important steps.
+
+Include a README file with instructions on how to run the tests and any other relevant information.
+
+3. Additional Tips:
+
+Use explicit waits ('WebDriverWait) to handle dynamic elements or asynchronous behavior.
+
+Explore different pages and functionalitie 'the website to cover a ↓ diverse set of test scenarios.
 
 public class EntrataTests {
 
